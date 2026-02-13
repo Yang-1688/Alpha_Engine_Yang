@@ -20,6 +20,7 @@
     - 新增 `tradingview_verifier.py`，支援 Alpha 公式轉 Pine Script (v5)。
     - 已抓取 PLTR, TGT, OXY, 1301.TW, 2317.TW, 2330.TW 近 5 年數據。
 - **GitHub 倉庫**: https://github.com/Yang-1688/Alpha_Engine_Yang
+    - **同步策略**: 已將全量代碼、數據及 OpenClaw 配置（MEMORY.md, USER.md 等）推送至 GitHub。後續以 GitHub 為開發與資料調用中心。
 
 ## 系統與環境
 - **Docker 環境**: 套件 (torch, yfinance 等) 在重啟後會丟失，需注意持久化。
